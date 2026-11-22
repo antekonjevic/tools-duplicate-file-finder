@@ -68,7 +68,8 @@ test('a file replaced by another one of the same size is reported', async (t) =>
   const dir = await tempDir(t);
   const file = path.join(dir, 'f');
   const expected = await place(file, randomBytes(100));
-  await fsp.rm(file);
+  // The replacement is written while the original still exists, so it can't
+  // get the original's inode number: ext4 reuses a freed one straight away.
   await fsp.writeFile(path.join(dir, 'other'), randomBytes(100));
   await fsp.rename(path.join(dir, 'other'), file);
   await assert.rejects(fullHash(file, expected), { code: 'ECHANGED' });

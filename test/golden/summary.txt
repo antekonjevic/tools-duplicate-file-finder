@@ -1,0 +1,29 @@
+dff finished in 7m 35s.
+
+1,234 files scanned (20.0 GB)
+4 duplicate groups · 5 duplicate files · 8.4 GB wasted
+1 group undecided: the copies have identical dates, so no keeper is suggested; you decide
+
+Top groups by wasted space
+  [1]  8.4 GB wasted   4.2 GB × 3  /Users/x/Movies/trip-link.mov
+  [2] 12.0 MB wasted  12.0 MB × 2  /Users/x/Pictures/a/IMG_0001.jpg  (undecided)
+  [3] 52.0 kB wasted  52.0 kB × 2  /srv/share/report, "final".pdf
+  [4]  2.0 kB wasted   2.0 kB × 2  /Users/x/notes/a.md
+
+Skipped: 12 hidden files · 3 hidden folders · 1 mount point · 2 symlinks
+
+Mount points not followed (add --cross-mounts to follow them):
+  /Users/x/mnt/nas
+
+External drives found but not scanned (add one as a folder argument to include it):
+  /Volumes/Camera
+
+Warning: 2 items could not be read: permission denied.
+  macOS protects some folders (Mail, Photos, Desktop, …) even from their owner. To include them,
+  grant your terminal app Full Disk Access: System Settings › Privacy & Security › Full Disk Access.
+3 errors in total; details are in the report.
+
+Printed 6 paths to standard output. Every path of the 1 undecided group is included; check those first.
+  1 path containing a newline was not printed; use -0 to print every path.
+
+Report: /Users/x/dff-report-20261121-140211.json

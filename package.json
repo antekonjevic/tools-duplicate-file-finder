@@ -1,0 +1,50 @@
+{
+  "name": "dff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only duplicate file finder for macOS and Linux. Scans folders, finds files with identical content and writes a report.",
+  "homepage": "https://github.com/antekonjevic/tools-duplicate-file-finder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antekonjevic/tools-duplicate-file-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antekonjevic/tools-duplicate-file-finder/issues"
+  },
+  "type": "module",
+  "bin": {
+    "dff": "bin/dff.js"
+  },
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "start": "node bin/dff.js"
+  },
+  "keywords": [
+    "duplicate",
+    "duplicates",
+    "dedupe",
+    "files",
+    "finder",
+    "cli",
+    "sha256",
+    "report"
+  ],
+  "author": "Ante Konjevic",
+  "license": "MIT"
+}

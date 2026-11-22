@@ -1,0 +1,12 @@
+group,hash,size,status,undecided,keeper_basis,birthtime,mtime,device,inode,path
+1,sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,4200000000,keeper,false,birthtime,2024-06-01T10:00:00.000Z,2024-06-01T10:00:00.000Z,16777220,10,/Users/x/Movies/trip-link.mov
+1,sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,4200000000,keeper,false,birthtime,2024-06-01T10:00:00.000Z,2024-06-01T10:00:00.000Z,16777220,10,/Users/x/Movies/trip.mov
+1,sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,4200000000,duplicate,false,birthtime,2024-06-03T09:12:00.000Z,2024-06-01T10:00:00.000Z,16777220,11,/Volumes/Backup/Movies/trip.mov
+1,sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,4200000000,duplicate,false,birthtime,2025-01-12T08:00:00.000Z,2025-01-12T08:00:00.000Z,16777220,12,/Users/x/Downloads/trip (1).mov
+2,sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc,12000000,undecided,true,birthtime,2023-03-02T12:00:00.000Z,2023-03-02T12:00:00.000Z,16777220,20,/Users/x/Pictures/a/IMG_0001.jpg
+2,sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc,12000000,undecided,true,birthtime,2023-03-02T12:00:00.000Z,2023-03-02T12:00:00.000Z,16777220,21,/Users/x/Pictures/b/IMG_0001.jpg
+3,sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,52000,keeper,false,mtime,,2022-01-01T00:00:00.000Z,16777220,30,"/srv/share/report, ""final"".pdf"
+3,sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,52000,duplicate,false,mtime,2022-05-01T00:00:00.000Z,2022-06-01T00:00:00.000Z,16777220,31,"/srv/share/report
+final.pdf"
+4,sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd,2000,keeper,false,birthtime,2026-01-01T00:00:00.120Z,2026-01-01T00:00:00.120Z,16777220,40,/Users/x/notes/a.md
+4,sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd,2000,duplicate,false,birthtime,2026-01-01T00:00:00.480Z,2026-01-01T00:00:00.480Z,16777220,41,/Users/x/notes/b.md

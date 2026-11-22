@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "tool": {
+    "name": "dff",
+    "version": "1.0.0"
+  },
+  "scan": {
+    "roots": [
+      "/Users/x",
+      "/Volumes/Backup",
+      "/srv/share"
+    ],
+    "system": false,
+    "options": {
+      "minSize": 1024,
+      "ext": null,
+      "excludes": [
+        "**/Downloads/tmp/**"
+      ],
+      "hiddenFiles": false,
+      "hiddenDirs": false,
+      "defaultExcludes": true,
+      "includeDataless": false,
+      "crossMounts": false
+    },
+    "platform": "darwin",
+    "startedAt": "2026-11-21T14:02:11.120Z",
+    "finishedAt": "2026-11-21T14:09:45.882Z"
+  },
+  "summary": {
+    "filesScanned": 1234,
+    "bytesScanned": 20000000000,
+    "candidates": 40,
+    "groups": 4,
+    "undecidedGroups": 1,
+    "duplicateFiles": 5,
+    "wastedBytes": 8412054000,
+    "hardlinkSets": 1,
+    "birthtimeUnavailable": 1,
+    "errors": 3,
+    "permissionErrors": 2,
+    "skipped": {
+      "dataless": 0,
+      "hiddenFiles": 12,
+      "hiddenDirs": 3,
+      "defaultExcludes": 0,
+      "neverScanned": 0,
+      "userExcludes": 0,
+      "mountPoints": 1,
+      "symlinks": 2,
+      "special": 0,
+      "belowMinSize": 0,
+      "extFiltered": 0,
+      "empty": 0
+    }
+  },
+  "mounts": {
+    "skipped": [
+      "/Users/x/mnt/nas"
+    ],
+    "found": [
+      "/Volumes/Camera"
+    ]
+  },
+  "groups": [
+    {
+      "id": 1,
+      "hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "size": 4200000000,
+      "copies": 3,
+      "wastedBytes": 8400000000,
+      "undecided": false,
+      "keeperBasis": "birthtime",
+      "files": [
+        {
+          "status": "keeper",
+          "path": "/Users/x/Movies/trip-link.mov",
+          "links": [
+            "/Users/x/Movies/trip.mov"
+          ],
+          "birthtime": "2024-06-01T10:00:00.000Z",
+          "mtime": "2024-06-01T10:00:00.000Z",
+          "device": 16777220,
+          "inode": 10
+        },
+        {
+          "status": "duplicate",
+          "path": "/Volumes/Backup/Movies/trip.mov",
+          "links": [],
+          "birthtime": "2024-06-03T09:12:00.000Z",
+          "mtime": "2024-06-01T10:00:00.000Z",
+          "device": 16777220,
+          "inode": 11
+        },
+        {
+          "status": "duplicate",
+          "path": "/Users/x/Downloads/trip (1).mov",
+          "links": [],
+          "birthtime": "2025-01-12T08:00:00.000Z",
+          "mtime": "2025-01-12T08:00:00.000Z",
+          "device": 16777220,
+          "inode": 12
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "hash": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "size": 12000000,
+      "copies": 2,
+      "wastedBytes": 12000000,
+      "undecided": true,
+      "keeperBasis": "birthtime",
+      "files": [
+        {
+          "status": "undecided",
+          "path": "/Users/x/Pictures/a/IMG_0001.jpg",
+          "links": [],
+          "birthtime": "2023-03-02T12:00:00.000Z",
+          "mtime": "2023-03-02T12:00:00.000Z",
+          "device": 16777220,
+          "inode": 20
+        },
+        {
+          "status": "undecided",
+          "path": "/Users/x/Pictures/b/IMG_0001.jpg",
+          "links": [],
+          "birthtime": "2023-03-02T12:00:00.000Z",
+          "mtime": "2023-03-02T12:00:00.000Z",
+          "device": 16777220,
+          "inode": 21
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "hash": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "size": 52000,
+      "copies": 2,
+      "wastedBytes": 52000,
+      "undecided": false,
+      "keeperBasis": "mtime",
+      "files": [
+        {
+          "status": "keeper",
+          "path": "/srv/share/report, \"final\".pdf",
+          "links": [],
+          "birthtime": null,
+          "mtime": "2022-01-01T00:00:00.000Z",
+          "device": 16777220,
+          "inode": 30
+        },
+        {
+          "status": "duplicate",
+          "path": "/srv/share/report\nfinal.pdf",
+          "links": [],
+          "birthtime": "2022-05-01T00:00:00.000Z",
+          "mtime": "2022-06-01T00:00:00.000Z",
+          "device": 16777220,
+          "inode": 31
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "hash": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "size": 2000,
+      "copies": 2,
+      "wastedBytes": 2000,
+      "undecided": false,
+      "keeperBasis": "birthtime",
+      "files": [
+        {
+          "status": "keeper",
+          "path": "/Users/x/notes/a.md",
+          "links": [],
+          "birthtime": "2026-01-01T00:00:00.120Z",
+          "mtime": "2026-01-01T00:00:00.120Z",
+          "device": 16777220,
+          "inode": 40
+        },
+        {
+          "status": "duplicate",
+          "path": "/Users/x/notes/b.md",
+          "links": [],
+          "birthtime": "2026-01-01T00:00:00.480Z",
+          "mtime": "2026-01-01T00:00:00.480Z",
+          "device": 16777220,
+          "inode": 41
+        }
+      ]
+    }
+  ],
+  "hardlinks": [
+    {
+      "device": 16777220,
+      "inode": 10,
+      "size": 4200000000,
+      "paths": [
+        "/Users/x/Movies/trip-link.mov",
+        "/Users/x/Movies/trip.mov"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "path": "/Users/x/Library/Mail",
+      "code": "EPERM",
+      "message": "operation not permitted"
+    },
+    {
+      "path": "/Users/x/locked.txt",
+      "code": "EACCES",
+      "message": "permission denied"
+    },
+    {
+      "path": "/Users/x/tmp/vanished.bin",
+      "code": "ECHANGED",
+      "message": "file changed during scan"
+    }
+  ]
+}
